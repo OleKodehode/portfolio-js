@@ -87,7 +87,7 @@ Error: red-400 (om nødvendig)
 
 (Light Mode)
 BG Primary: zinc-50 (main/section)
-BG Secondary: zinc-100 (Cards, navbar?)
+BG Secondary: zinc-200 (Cards, navbar?)
 Text Primary: zinc-900 (heading, body text)
 Text Secondary: zinc-600 (subtitles, metadata)
 Borders/dividers: zinc-300 
