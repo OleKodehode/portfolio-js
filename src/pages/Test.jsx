@@ -19,7 +19,7 @@ export default function Test() {
             Test to see how A tags work
           </a>
           <img
-            src="public/img/landing-img.jpg"
+            src="/img/landing-img.jpg"
             alt=""
             style={{ borderRadius: "25px" }}
           />
