@@ -33,5 +33,5 @@ body {
 }
 
 .nav-btn {
-  @apply p-2 -translate-y-2 text-white bg-purple-500 hover:bg-purple-700 drop-shadow-lg outline outline-zinc-300/5 dark:bg-purple-700 dark:hover:bg-purple-500 rounded-xl hover:underline hover:-translate-y-2.5 dark:shadow-none dark:outline-none cursor-pointer;
+  @apply p-2  text-white bg-purple-500 hover:bg-purple-700 drop-shadow-lg outline outline-zinc-300/5 dark:bg-purple-700 dark:hover:bg-purple-500 rounded-xl hover:underline hover:-translate-y-2.5 dark:shadow-none dark:outline-none cursor-pointer active:dark:bg-purple-900 active:outline-0;
 }
