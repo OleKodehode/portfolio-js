@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main className="w-screen">
+      <main>
         <Outlet />
       </main>
     </>

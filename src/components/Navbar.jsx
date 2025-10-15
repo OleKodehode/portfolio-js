@@ -27,9 +27,6 @@ export default function Navbar() {
         <li>
           <NavButton to="contact">Contact</NavButton>
         </li>
-        <li>
-          <NavButton to="test">Test</NavButton>
-        </li>
       </ul>
     </nav>
   );

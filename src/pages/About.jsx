@@ -23,10 +23,8 @@ export default function About() {
         </article>
         <article id="about-img">
           <img
-            src=""
+            src="./img/placeholder.png"
             alt=""
-            width="750"
-            height="800"
             className="border-1 rounded-xl"
           />
         </article>

@@ -1,0 +1,119 @@
+[
+  {
+    "id": 0,
+    "title": "First Assignment",
+    "thumbnail-sm": "./img/placeholder.png",
+    "thumbnail-lg": "./img/placeholder.png",
+    "screenshot": "",
+    "summary": "My first assigment done at Kodehode - Where my journey began.",
+    "details": ""
+  },
+  {
+    "id": 1,
+    "title": "Craftsvilla",
+    "thumbnail-sm": "./img/placeholder.png",
+    "thumbnail-lg": "./img/placeholder.png",
+    "screenshot": "",
+    "summary": "Progress after about one month into the course",
+    "details": ""
+  },
+  {
+    "id": 2,
+    "title": "To-do list",
+    "thumbnail-sm": "./img/placeholder.png",
+    "thumbnail-lg": "./img/placeholder.png",
+    "screenshot": "",
+    "summary": "Extra Assingment to make a todo-list using an API",
+    "details": ""
+  },
+  {
+    "id": 3,
+    "title": "Frontend mentor Testimonial Grid",
+    "thumbnail-sm": "./img/placeholder.png",
+    "thumbnail-lg": "./img/placeholder.png",
+    "screenshot": "",
+    "summary": "We were tasked to do the Frontend mentor testimonial grid challenge",
+    "details": ""
+  },
+  {
+    "id": 4,
+    "title": "Confetti",
+    "thumbnail-sm": "./img/placeholder.png",
+    "thumbnail-lg": "./img/placeholder.png",
+    "screenshot": "",
+    "summary": "Small assignment to make a confetti button",
+    "details": ""
+  },
+  {
+    "id": 5,
+    "title": "CSS Animations",
+    "thumbnail-sm": "./img/placeholder.png",
+    "thumbnail-lg": "./img/placeholder.png",
+    "screenshot": "",
+    "summary": "Made a small website for Kristiansund municipality for showing off some animation and transition knowledge",
+    "details": ""
+  },
+  {
+    "id": 6,
+    "title": "Bubble Popping",
+    "thumbnail-sm": "./img/placeholder.png",
+    "thumbnail-lg": "./img/placeholder.png",
+    "screenshot": "",
+    "summary": "Simple assignment in DOM manipulation using Javascript",
+    "details": ""
+  },
+  {
+    "id": 7,
+    "title": "Movable Object",
+    "thumbnail-sm": "./img/placeholder.png",
+    "thumbnail-lg": "./img/placeholder.png",
+    "screenshot": "",
+    "summary": "Small project to make a movable object on the screen using Javascript",
+    "details": ""
+  },
+  {
+    "id": 8,
+    "title": "Recipe Archive",
+    "thumbnail-sm": "./img/placeholder.png",
+    "thumbnail-lg": "./img/placeholder.png",
+    "screenshot": "",
+    "summary": "I decided to go with a recipe archive when we got an assignment to utilize LocalStorage",
+    "details": ""
+  },
+  {
+    "id": 9,
+    "title": "Jokes & Useless Facts",
+    "thumbnail-sm": "./img/placeholder.png",
+    "thumbnail-lg": "./img/placeholder.png",
+    "screenshot": "",
+    "summary": "Small API assignment to utilize any free publicly available APIs",
+    "details": ""
+  },
+  {
+    "id": 10,
+    "title": "Match 2 React app",
+    "thumbnail-sm": "./img/placeholder.png",
+    "thumbnail-lg": "./img/placeholder.png",
+    "screenshot": "",
+    "summary": "As a project spanning a couple of days, we were told to make a match 2 memory game using React",
+    "details": ""
+  },
+  {
+    "id": 11,
+    "title": "Gutendex React App",
+    "thumbnail-sm": "./img/placeholder.png",
+    "thumbnail-lg": "./img/placeholder.png",
+    "screenshot": "",
+    "summary": "As the final React assingment we were tasked to make a book finder app using the Gutendex API",
+    "details": ""
+  },
+  {
+    "id": 12,
+    "title": "This Portfolio",
+    "thumbnail-sm": "./img/placeholder.png",
+    "thumbnail-lg": "./img/placeholder.png",
+    "screenshot": "",
+    "summary": "This Portfolio has been an ongoing project for several months!",
+    "details": ""
+  }
+]
