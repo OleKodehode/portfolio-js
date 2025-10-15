@@ -1,8 +1,8 @@
 export default function About() {
   return (
     <>
-      <h1 className="font-roboto text-4xl mb-5 text-center">Hi - I'm Ole</h1>
-      <section className="card gap-5">
+      <h1 className="font-roboto text-4xl mb-5 text-center">About me</h1>
+      <section className="card gap-5 md:p-8 object-scale-down">
         <article id="about-text" className="text-lg flex flex-col gap-5">
           <p className="font-bold">
             I'm an aspiring developer with a growing interest in system logic
@@ -21,8 +21,14 @@ export default function About() {
             and knack for it.
           </p>
         </article>
-        <article id="about-img" className="border rounded-xl mask-clip-content">
-          <img src="" alt="" width="700" height="800" />
+        <article id="about-img">
+          <img
+            src=""
+            alt=""
+            width="750"
+            height="800"
+            className="border-1 rounded-xl"
+          />
         </article>
       </section>
     </>

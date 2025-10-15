@@ -36,6 +36,10 @@ body {
   @apply m-0 flex items-center justify-center min-w-80 min-h-screen;
 }
 
+main {
+  @apply mt-40 mb-20 md:m-0;
+}
+
 .nav-btn {
   @apply p-2  text-white bg-purple-500 hover:bg-purple-700 drop-shadow-lg outline outline-zinc-300/5 dark:bg-purple-700 dark:hover:bg-purple-500 rounded-xl hover:underline hover:-translate-y-2.5 dark:shadow-none dark:outline-none cursor-pointer active:dark:bg-purple-900 active:outline-0;
 }
