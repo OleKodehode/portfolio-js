@@ -45,7 +45,7 @@ body {
 }
 
 .card {
-  @apply mx-auto flex flex-col max-w-8/10 items-center rounded-2xl bg-zinc-100 p-6 shadow-xl outline-2 outline-zinc-300/50 dark:bg-zinc-900 dark:shadow-md dark:shadow-purple-400 dark:-outline-offset-1 dark:outline-purple-500/50 text-zinc-900 dark:text-zinc-200;
+  @apply mx-auto flex flex-col md:flex-row max-w-8/10 md:max-w-6/10 max-h-screen items-center rounded-2xl bg-zinc-100 p-6 shadow-xl outline-2 outline-zinc-300/50 dark:bg-zinc-900 dark:shadow-md dark:shadow-purple-400 dark:-outline-offset-1 dark:outline-purple-500/50 text-zinc-900 dark:text-zinc-200;
 }
 
 .animate-fadein {

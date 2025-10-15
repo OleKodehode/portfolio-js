@@ -2,7 +2,7 @@ export default function About() {
   return (
     <>
       <h1 className="font-roboto text-4xl mb-5 text-center">Hi - I'm Ole</h1>
-      <section className="flex-row! card gap-5 max-w-6/10! max-h-screen">
+      <section className="card gap-5">
         <article id="about-text" className="text-lg flex flex-col gap-5">
           <p className="font-bold">
             I'm an aspiring developer with a growing interest in system logic
