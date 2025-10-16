@@ -2,47 +2,26 @@ import ProjectCard from "../components/ProjectCard";
 import projectData from "../models/projects.json";
 
 export default function Projects() {
-  console.log(projectData);
   return (
     <>
-      <h1 className="text-4xl mb-10">Highlighted Projects</h1>
+      <h1 className="text-4xl mb-10 text-center">Highlighted Projects</h1>
       <section
         id="highlighted"
-        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-items-center"
       >
-        <article className="card gap-2">
-          <img
-            src="./img/placeholder.png"
-            alt=""
-            width="150"
-            height="150"
-            className="rounded-xl"
-          />
-          <h1>Gutendex React app</h1>
-        </article>
-        <article className="card">
-          <img
-            src="./img/placeholder.png"
-            alt=""
-            width="150"
-            height="150"
-            className="rounded-xl"
-          />
-          <h1>Match 2 Game</h1>
-        </article>
-        <article className="card">
-          <img
-            src="./img/placeholder.png"
-            alt=""
-            width="150"
-            height="150"
-            className="rounded-xl"
-          />
-          <h1>Recipe Archive</h1>
-        </article>
+        <ProjectCard projectDetails={projectData[1]} layout="flex-col!" />
+        <ProjectCard projectDetails={projectData[2]} layout="flex-col!" />
+        <ProjectCard projectDetails={projectData[4]} layout="flex-col!" />
       </section>
       <h3 className="text-2xl my-10 text-center">All Projects</h3>
-      <section id="all-projects"></section>
+      <section
+        id="all-projects"
+        className="grid gap-5 grid-cols-1 justify-items-center"
+      >
+        {projectData.map((project) => (
+          <ProjectCard projectDetails={project} />
+        ))}
+      </section>
     </>
   );
 }

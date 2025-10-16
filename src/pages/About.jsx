@@ -5,8 +5,8 @@ export default function About() {
       <section className="card gap-5 md:p-8 object-scale-down">
         <article id="about-text" className="text-lg flex flex-col gap-5">
           <p className="font-bold">
-            I'm an aspiring developer with a growing interest in system logic
-            and backend architecture.
+            My name is Ole and I'm an aspiring developer with a growing interest
+            in system logic and backend architecture.
           </p>
           <p>
             While I'm still early in my programming journey, I've always been

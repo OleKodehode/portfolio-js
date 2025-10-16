@@ -24,7 +24,7 @@
 }
 
 :root {
-  @apply bg-zinc-50 text-zinc-900 dark:text-zinc-200 dark:bg-stone-900 leading-relaxed;
+  @apply bg-zinc-50 text-zinc-900 dark:text-zinc-200 dark:bg-stone-900 leading-relaxed max-w-screen;
   font-family: "Saira", sans-serif, system-ui;
 }
 
@@ -32,12 +32,8 @@
   @apply fixed top-0 left-0 w-full bg-zinc-100 text-zinc-900 dark:bg-zinc-800/50 dark:text-zinc-200 h-32 md:h-18 flex flex-col md:flex-row p-5 justify-between items-center shadow-2xl shadow-zinc-900/50 dark:shadow-none z-50;
 }
 
-body {
-  @apply m-0 flex items-center justify-center min-w-80 min-h-screen;
-}
-
 main {
-  @apply mt-40 mb-20 md:m-0;
+  @apply mt-40 mb-20 md:m-0 flex items-center justify-center flex-col;
 }
 
 .nav-btn {
@@ -49,7 +45,7 @@ main {
 }
 
 .card {
-  @apply mx-auto flex flex-col md:flex-row max-w-8/10 md:max-w-6/10 max-h-screen items-center rounded-2xl bg-zinc-100 p-6 shadow-xl outline-2 outline-zinc-300/50 dark:bg-zinc-900 dark:shadow-md dark:shadow-purple-400 dark:-outline-offset-1 dark:outline-purple-500/50 text-zinc-900 dark:text-zinc-200;
+  @apply flex flex-col md:flex-row max-w-8/10 md:max-w-6/10 max-h-screen items-center rounded-2xl bg-zinc-100 p-6 shadow-xl outline-2 outline-zinc-300/50 dark:bg-zinc-900 dark:shadow-md dark:shadow-purple-400 dark:-outline-offset-1 dark:outline-purple-500/50 text-zinc-900 dark:text-zinc-200;
 }
 
 .animate-fadein {
