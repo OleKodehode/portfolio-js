@@ -2,7 +2,7 @@ export default function About() {
   return (
     <>
       <h1 className="font-roboto text-4xl mb-5 text-center">About me</h1>
-      <section className="card gap-5 md:p-8 object-scale-down">
+      <section className="card gap-5 md:p-8 lg:gap-10 object-scale-down">
         <article id="about-text" className="text-lg flex flex-col gap-5">
           <p className="font-bold">
             My name is Ole and I'm an aspiring developer with a growing interest

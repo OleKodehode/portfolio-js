@@ -33,7 +33,7 @@
 }
 
 main {
-  @apply mt-40 mb-20 md:m-0 flex items-center justify-center flex-col;
+  @apply mt-40 mb-20 md:mt-20 flex items-center justify-center flex-col;
 }
 
 .nav-btn {
@@ -45,9 +45,20 @@ main {
 }
 
 .card {
-  @apply flex flex-col md:flex-row max-w-8/10 md:max-w-6/10 max-h-screen items-center rounded-2xl bg-zinc-100 p-6 shadow-xl outline-2 outline-zinc-300/50 dark:bg-zinc-900 dark:shadow-md dark:shadow-purple-400 dark:-outline-offset-1 dark:outline-purple-500/50 text-zinc-900 dark:text-zinc-200;
+  @apply flex flex-col lg:flex-row w-8/10  max-h-screen items-center rounded-2xl bg-zinc-100 p-6 shadow-xl outline-2 outline-zinc-300/50 dark:bg-zinc-900 dark:shadow-md dark:-outline-offset-1 dark:outline-purple-500/50 text-zinc-900 dark:text-zinc-200;
 }
 
+.hover-card {
+  @apply hover:dark:shadow-purple-400 hover:-translate-y-0.5 cursor-pointer;
+}
+
+#about-text {
+  @apply max-w-8/10 lg:max-w-6/10;
+}
+
+.accent-text {
+  @apply text-purple-700 dark:text-purple-400;
+}
 .animate-fadein {
   animation: fadeIn 1.5s ease-in-out forwards;
 }

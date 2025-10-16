@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <>
-      <div className="relative md:h-screen md:w-full md:overflow-hidden md:mt-20">
+      <div className="relative md:w-full md:overflow-hidden md:mt-40 lg:mt-0">
         <picture>
           <source
             srcSet="/img/landing-img-port.png"
@@ -10,7 +10,7 @@ export default function Home() {
           <img
             src="/img/landing-img.png"
             alt="cover"
-            className="w-11/12 m-auto rounded-xl md:w-8/12"
+            className="w-11/12 m-auto rounded-xl md:w-10/12"
           />
         </picture>
 
