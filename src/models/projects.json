@@ -40,8 +40,8 @@
     "screenshot": "",
     "summary": "Small API assignment to utilize any free publicly available APIs",
     "details": "",
-    "link-repo": "",
-    "link-pages": ""
+    "link-repo": "https://github.com/OleKodehode/JS-API-Assignment",
+    "link-pages": "https://olekodehode.github.io/JS-API-Assignment/"
   },
   {
     "id": 8,
@@ -51,8 +51,8 @@
     "screenshot": "",
     "summary": "I decided to go with a recipe archive when we got an assignment to utilize LocalStorage",
     "details": "",
-    "link-repo": "",
-    "link-pages": ""
+    "link-repo": "https://github.com/OleKodehode/Recipes-Archive",
+    "link-pages": "https://olekodehode.github.io/Recipes-Archive/"
   },
   {
     "id": 7,
@@ -62,8 +62,8 @@
     "screenshot": "",
     "summary": "Small project to make a movable object on the screen using Javascript",
     "details": "",
-    "link-repo": "",
-    "link-pages": ""
+    "link-repo": "https://github.com/OleKodehode/movable-object",
+    "link-pages": "https://olekodehode.github.io/movable-object/"
   },
   {
     "id": 6,
@@ -73,8 +73,8 @@
     "screenshot": "",
     "summary": "Simple assignment in DOM manipulation using Javascript",
     "details": "",
-    "link-repo": "",
-    "link-pages": ""
+    "link-repo": "https://github.com/OleKodehode/DOM-manipulation-assignment",
+    "link-pages": "https://olekodehode.github.io/DOM-manipulation-assignment/"
   },
   {
     "id": 5,
@@ -84,8 +84,8 @@
     "screenshot": "",
     "summary": "Made a small website for Kristiansund municipality for showing off some animation and transition knowledge",
     "details": "",
-    "link-repo": "",
-    "link-pages": ""
+    "link-repo": "https://github.com/OleKodehode/css-advanced-3",
+    "link-pages": "https://olekodehode.github.io/css-advanced-3/"
   },
   {
     "id": 4,
@@ -95,8 +95,8 @@
     "screenshot": "",
     "summary": "Small assignment to make a confetti button",
     "details": "",
-    "link-repo": "",
-    "link-pages": ""
+    "link-repo": "https://github.com/OleKodehode/Konfetti_Oppgave",
+    "link-pages": "https://olekodehode.github.io/Konfetti_Oppgave/"
   },
   {
     "id": 3,
@@ -106,8 +106,8 @@
     "screenshot": "",
     "summary": "We were tasked to do the Frontend mentor testimonial grid challenge",
     "details": "",
-    "link-repo": "",
-    "link-pages": ""
+    "link-repo": "https://github.com/OleKodehode/CSS_Advanced_1",
+    "link-pages": "https://olekodehode.github.io/CSS_Advanced_1/"
   },
   {
     "id": 2,
@@ -117,8 +117,8 @@
     "screenshot": "",
     "summary": "Extra Assingment to make a todo-list using an API",
     "details": "",
-    "link-repo": "",
-    "link-pages": ""
+    "link-repo": "https://github.com/OleKodehode/EkstraEkstraOppgave",
+    "link-pages": "https://olekodehode.github.io/EkstraEkstraOppgave/"
   },
   {
     "id": 1,
@@ -128,8 +128,8 @@
     "screenshot": "",
     "summary": "Progress after about one month into the course",
     "details": "",
-    "link-repo": "",
-    "link-pages": ""
+    "link-repo": "https://github.com/OleKodehode/craftsvilla_assignment",
+    "link-pages": "https://olekodehode.github.io/craftsvilla_assignment/"
   },
   {
     "id": 0,
@@ -139,7 +139,7 @@
     "screenshot": "",
     "summary": "My first assigment done at Kodehode - Where my journey began.",
     "details": "",
-    "link-repo": "",
-    "link-pages": ""
+    "link-repo": "https://github.com/OleKodehode/first-assignment",
+    "link-pages": "https://olekodehode.github.io/first-assignment/"
   }
 ]
