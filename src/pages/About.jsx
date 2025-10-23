@@ -1,8 +1,35 @@
+import {
+  CSS,
+  ExpressJsDark,
+  ExpressJsLight,
+  HTML5,
+  JavaScript,
+  MicrosoftSQLServer2,
+  NodeJs,
+  Python,
+  React,
+  TailwindCSS,
+} from "developer-icons";
+
 export default function About() {
   return (
     <>
       <h1 className="font-roboto text-4xl mb-5 text-center">About me</h1>
-      <section className="card gap-5 md:p-8 lg:gap-10 object-scale-down">
+      <section className="mb-5 max-w-screen mx-5">
+        <div className="flex gap-5 flex-wrap justify-evenly">
+          <HTML5 size={48} />
+          <CSS size={48} />
+          <JavaScript size={48} />
+          <React size={48} />
+          <TailwindCSS size={48} />
+          <NodeJs size={48} />
+          <ExpressJsDark size={48} className="dark:hidden" />
+          <ExpressJsLight size={48} className="hidden dark:block" />
+          <MicrosoftSQLServer2 size={48} />
+          <Python size={48} />
+        </div>
+      </section>
+      <section className="card gap-5 md:p-8 lg:gap-10">
         <article id="about-text" className="text-lg flex flex-col gap-5">
           <p className="font-bold">
             My name is Ole and I'm an aspiring developer with a growing interest

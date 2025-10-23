@@ -61,7 +61,7 @@ main {
 }
 
 .footer {
-  @apply fixed bottom-0 left-100 w-1/2 bg-zinc-100/80 text-zinc-900 dark:bg-zinc-800/50 dark:text-zinc-200 h-32 md:h-18 flex flex-row p-5 justify-between items-center shadow-2xl shadow-zinc-900/50 dark:shadow-none z-50 rounded-t-2xl;
+  @apply fixed bottom-0 left-10 lg:left-100 w-8/10 lg:w-1/2 bg-zinc-100/80 text-zinc-900 dark:bg-zinc-800/50 dark:text-zinc-200 h-32 md:h-18 flex flex-row p-5 justify-between items-center shadow-2xl shadow-zinc-900/50 dark:shadow-none z-50 rounded-t-2xl;
 }
 
 .tooltip {
