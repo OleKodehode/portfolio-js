@@ -29,7 +29,7 @@
 }
 
 .navbar {
-  @apply fixed top-0 left-0 w-full bg-zinc-100 text-zinc-900 dark:bg-zinc-800/50 dark:text-zinc-200 h-32 md:h-18 flex flex-col md:flex-row p-5 justify-between items-center shadow-2xl shadow-zinc-900/50 dark:shadow-none z-50;
+  @apply fixed top-0 left-0 w-full bg-zinc-100/80 text-zinc-900 dark:bg-zinc-800/50 dark:text-zinc-200 h-32 md:h-18 flex flex-col md:flex-row p-5 justify-between items-center shadow-2xl shadow-zinc-900/50 dark:shadow-none z-50;
 }
 
 main {
@@ -59,6 +59,19 @@ main {
 .accent-text {
   @apply text-purple-700 dark:text-purple-400;
 }
+
+.footer {
+  @apply fixed bottom-0 left-100 w-1/2 bg-zinc-100/80 text-zinc-900 dark:bg-zinc-800/50 dark:text-zinc-200 h-32 md:h-18 flex flex-row p-5 justify-between items-center shadow-2xl shadow-zinc-900/50 dark:shadow-none z-50 rounded-t-2xl;
+}
+
+.tooltip {
+  @apply absolute left-1/2 transform -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-zinc-200 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-200 text-sm rounded py-1 px-2 z-10 transition-opacity duration-300 opacity-0 group-hover:opacity-100;
+}
+
+.icon-container {
+  @apply bg-zinc-200 shadow-md shadow-zinc-800/50 dark:shadow-none p-1 rounded-xl hover:scale-105 transition-transform duration-200 hover:outline-3 hover:outline-purple-500;
+}
+
 .animate-fadein {
   animation: fadeIn 1.5s ease-in-out forwards;
 }
