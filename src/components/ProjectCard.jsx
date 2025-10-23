@@ -7,7 +7,7 @@ export default function ProjectCard({ projectDetails, layout = null }) {
         alt=""
         width="150"
         height="150"
-        className="rounded-xl"
+        className="object-cover rounded-xl"
       />
       <div className="flex flex-col md:gap-5">
         <h1 className="text-lg font-bold text-center">{title}</h1>
