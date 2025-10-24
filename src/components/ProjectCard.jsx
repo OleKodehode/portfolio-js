@@ -1,7 +1,10 @@
 export default function ProjectCard({ projectDetails, layout = null }) {
-  const { title, summary } = projectDetails;
+  const { title, summary, id } = projectDetails;
   return (
-    <article className={`card hover-card gap-2 ${layout ? layout : ""}`}>
+    <a
+      className={`card hover-card gap-2 ${layout ? layout : ""}`}
+      href={`/projects/${id}`}
+    >
       <img
         src="./img/placeholder.png"
         alt=""
@@ -13,6 +16,6 @@ export default function ProjectCard({ projectDetails, layout = null }) {
         <h1 className="text-lg font-bold text-center">{title}</h1>
         <p className="max-w-9/10 self-center">{summary}</p>
       </div>
-    </article>
+    </a>
   );
 }

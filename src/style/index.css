@@ -60,6 +60,10 @@ main {
   @apply text-purple-700 dark:text-purple-400;
 }
 
+a {
+  @apply text-purple-700 dark:text-purple-400 hover:underline;
+}
+
 .footer {
   @apply fixed bottom-0 left-1/10 lg:left-1/4 w-8/10 lg:w-1/2 bg-zinc-100/80 text-zinc-900 dark:bg-zinc-800/80 dark:text-zinc-200 h-18 flex flex-row p-5 justify-between items-center shadow-2xl shadow-zinc-900/50 dark:shadow-none z-50 rounded-t-2xl;
 }

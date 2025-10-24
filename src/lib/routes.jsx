@@ -3,6 +3,7 @@ import ErrorElement from "../components/ErrorElement";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Home from "../pages/Home";
+import ProjectDetails from "../pages/ProjectDetails";
 import Projects from "../pages/Projects";
 import Test from "../pages/Test";
 
@@ -19,6 +20,11 @@ const routes = [
       {
         path: "/projects",
         element: <Projects />,
+        errorElement: <ErrorElement />,
+      },
+      {
+        path: "/projects/:id",
+        element: <ProjectDetails />,
         errorElement: <ErrorElement />,
       },
       {
