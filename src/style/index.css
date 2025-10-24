@@ -33,7 +33,7 @@
 }
 
 main {
-  @apply mt-40 mb-20 md:mt-20 flex items-center justify-center flex-col;
+  @apply mt-40 mb-20 md:mt-20 flex items-center justify-center flex-col max-w-full;
 }
 
 .nav-btn {
@@ -45,7 +45,7 @@ main {
 }
 
 .card {
-  @apply flex flex-col lg:flex-row w-8/10  items-center rounded-2xl bg-zinc-100 p-6 shadow-xl outline-2 outline-zinc-300/50 dark:bg-zinc-900 dark:shadow-md dark:-outline-offset-1 dark:outline-purple-500/50 text-zinc-900 dark:text-zinc-200;
+  @apply flex flex-col lg:flex-row w-8/10 items-center rounded-2xl bg-zinc-100 p-6 shadow-xl outline-2 outline-zinc-300/50 dark:bg-zinc-900 dark:shadow-md dark:-outline-offset-1 dark:outline-purple-500/50 text-zinc-900 dark:text-zinc-200;
 }
 
 .hover-card {

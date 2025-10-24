@@ -10,7 +10,7 @@ export default function Home() {
           <img
             src="/img/landing-img.png"
             alt="cover"
-            className="w-11/12 m-auto rounded-xl md:w-10/12 lg:max-h-screen lg:w-auto"
+            className="w-11/12 m-auto rounded-xl md:w-10/12 lg:max-h-screen"
           />
         </picture>
 

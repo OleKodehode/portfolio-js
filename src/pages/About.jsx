@@ -64,7 +64,7 @@ export default function About() {
           <img
             src="/img/about-lg-portrait.webp"
             alt=""
-            className="hidden md:block absolute top-0 lg:top-20 left-0  rounded animate-fadein-reverse"
+            className="hidden md:block absolute top-0 left-0 rounded animate-fadein-reverse w-full h-auto"
           />
         </article>
       </section>
