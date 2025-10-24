@@ -6,13 +6,17 @@ export default function Navbar() {
     <nav className="navbar">
       <NavLink
         to="/"
-        className={`flex items-center group gap-2 ${({ isActive }) =>
+        className={`flex items-center justify-center group ${({ isActive }) =>
           isActive
             ? "text-purple-700 dark:text-purple-500 transition-all duration-400"
             : "transition-all duration-400"}
         `}
       >
-        <img src="/img/Site-Icon.png" alt="Logo" className="size-15" />
+        <img
+          src="/img/Site-Icon.png"
+          alt="Logo"
+          className="size-15 -mt-1 md:mt-0"
+        />
         <h5 className="text-3xl font-roboto group-hover:scale-105 group-hover:-translate-y-0.5">
           Kode-Ole
         </h5>

@@ -30,7 +30,15 @@ export default function About() {
         </div>
       </section>
       <section className="card gap-5 md:p-8 lg:gap-10">
-        <article id="about-text" className="text-lg flex flex-col gap-5">
+        <article
+          id="about-text"
+          className="text-lg md:text-xl flex flex-col gap-5 lg:gap-10"
+        >
+          <img
+            src="/img/about-sm-portrait.webp"
+            alt=""
+            className="rounded-[100%] border-4 border-purple-500 relative  bg-zinc-800/80 w-50 md:hidden animate-fadein-port"
+          />
           <p className="font-bold">
             My name is Ole and I'm an aspiring developer with a growing interest
             in system logic and backend architecture.
@@ -48,11 +56,15 @@ export default function About() {
             and knack for it.
           </p>
         </article>
-        <article id="about-img">
+        <article
+          id="about-img"
+          className="md:w-[60svw] md:h-[40svh] lg:w-[80svw] lg:h-[60svh] relative rounded-2xl overflow-clip"
+        >
+          <div className="bg-[url(/img/about-bg.webp)] bg-cover bg-center w-full h-full blur-[1px]"></div>
           <img
-            src="./img/placeholder.png"
+            src="/img/about-lg-portrait.webp"
             alt=""
-            className="border-1 rounded-xl"
+            className="hidden md:block absolute top-0 lg:top-20 left-0  rounded animate-fadein-reverse"
           />
         </article>
       </section>
