@@ -1,5 +1,5 @@
 import { GitHubDark, LinkedIn } from "developer-icons";
-import Tooltip from "./Tooltip";
+import Tooltip from "./Tooltip.jsx";
 
 export default function Footer() {
   return (
