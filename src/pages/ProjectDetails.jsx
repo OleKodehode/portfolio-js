@@ -7,8 +7,7 @@ export default function ProjectDetails() {
   const { title, screenshot, summary, details, linkRepo, linkPages } = project;
   return (
     <>
-      <h1 className="text-2xl">Project Page Test</h1>
-      <p>Project Title: {title}</p>
+      <h1 className="text-2xl">{title}</h1>
       <p>Project ID: {id}</p>
       <a href={linkRepo}>Link to GitHub Repo</a>
       {linkPages && <a href={linkPages}>Link to GitHub Pages demo</a>}
