@@ -21,7 +21,7 @@ export default function Projects() {
         className="grid gap-5 grid-cols-1 justify-items-center lg:grid-cols-2 lg:gap-y-5 lg:gap-x-0 lg:px-5"
       >
         {projectData.map((project) => (
-          <ProjectCard projectDetails={project} />
+          <ProjectCard projectDetails={project} key={project.id} />
         ))}
       </section>
     </>

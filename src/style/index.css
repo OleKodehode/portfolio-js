@@ -60,7 +60,7 @@ main {
   @apply text-purple-700 dark:text-purple-400;
 }
 
-a {
+main > a {
   @apply text-purple-700 dark:text-purple-400 hover:underline;
 }
 

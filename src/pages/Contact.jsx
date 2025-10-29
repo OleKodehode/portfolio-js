@@ -1,8 +1,7 @@
 export default function Contact() {
   return (
     <>
-      <h1 className="text-2xl font-bold m-5 text-center">Contact</h1>
-      <article className="card justify-center">
+      <article className="mt-10">
         <p className="text-lg md:text-2xl">
           You can get a hold of me through my{" "}
           <a

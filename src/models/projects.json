@@ -4,8 +4,12 @@
     "title": "This Portfolio",
     "thumbnail": "./img/placeholder.png",
     "screenshot": "",
-    "summary": "This Portfolio has been an ongoing project for several months!",
-    "details": "",
+    "summary": "This Portfolio has been an ongoing project for several months",
+    "details": [
+      "I decided to go with React + vite (JS) with Tailwindcss for my Portfolio as we had just been learning React when we were gonna start building our Portfolios.",
+      "The design part of the portfolio started in August of 2025, using Figma to set up Wireframes and over the course of the month experimenting and building out our designs.",
+      ""
+    ],
     "linkRepo": "https://github.com/OleKodehode/portfolio-js",
     "linkPages": ""
   },
