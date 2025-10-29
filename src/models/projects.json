@@ -19,7 +19,7 @@
     "thumbnail": "/img/gutendex-thumbnail.webp",
     "screenshot": "/img/gutendex-screenshot.webp",
     "summary": "As the final React assingment we were tasked to make a book finder app using the Gutendex API",
-    "details": [""],
+    "details": "",
     "linkRepo": "https://github.com/OleKodehode/gutendex",
     "linkPages": "https://olekodehode.github.io/gutendex/"
   },
@@ -129,7 +129,12 @@
     "thumbnail": "/img/firstproject-thumbnail.webp",
     "screenshot": "/img/firstproject-screenshot.webp",
     "summary": "My first assigment done at Kodehode - Where my journey began.",
-    "details": "",
+    "details": [
+      "Where my journey at Kodehode began at the end of May 2025.",
+      "Coming into the web developer course, I had some basic knowledge of HTML, CSS & JS after having gone through freecodecamp's curriculum a bit a year prior.",
+      "Though, I had largely focused on Python once I got to that part of their curriculum, so most of this project were done based on googling and the small amount of lectures we had during the first week.",
+      "The difference between my first week and now is quite stark - I've learned a lot during my time at Kodehode!"
+    ],
     "linkRepo": "https://github.com/OleKodehode/first-assignment",
     "linkPages": "https://olekodehode.github.io/first-assignment/"
   }
