@@ -4,7 +4,7 @@
     "title": "This Portfolio",
     "thumbnail": "/img/portfolio-thumbnail.webp",
     "screenshot": "/img/portfolio-screenshot.webp",
-    "summary": "This Portfolio has been an ongoing project for several months",
+    "summary": "An ongoing project for several months using React & Tailwind",
     "details": [
       "I decided to go with React + vite (JS) with Tailwindcss for my Portfolio as we had just been learning React when we were gonna start building our Portfolios.",
       "The design part of the portfolio started in August of 2025, using Figma to set up Wireframes and over the course of the month experimenting and building out our designs.",
@@ -19,7 +19,7 @@
     "thumbnail": "./img/placeholder.png",
     "screenshot": "",
     "summary": "As the final React assingment we were tasked to make a book finder app using the Gutendex API",
-    "details": "",
+    "details": [""],
     "linkRepo": "https://github.com/OleKodehode/gutendex",
     "linkPages": "https://olekodehode.github.io/gutendex/"
   },

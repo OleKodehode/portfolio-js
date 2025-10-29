@@ -6,6 +6,7 @@ export default function Contact() {
           You can get a hold of me through my{" "}
           <a
             href="https://github.com/OleKodehode"
+            target="_blank"
             className="accent-text hover:underline"
           >
             Github Profile
@@ -13,6 +14,7 @@ export default function Contact() {
           or{" "}
           <a
             href="https://www.linkedin.com/in/kodeole/"
+            target="_blank"
             className="accent-text hover:underline"
           >
             Linkedin Profile
