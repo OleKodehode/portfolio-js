@@ -1,29 +1,43 @@
+import { GitHubDark } from "developer-icons";
 import ProjectCard from "../components/ProjectCard";
 import projectData from "../models/projects.json";
 
 export default function Projects() {
   return (
     <>
-      <h1 className="text-4xl mb-10 text-center accent-text">
+      <h1 className="text-4xl mb-10 text-center accent-text font-roboto">
         Highlighted Projects
       </h1>
       <section
         id="highlighted"
-        className="grid grid-cols-1 lg:grid-cols-3 gap-5 justify-items-center"
+        className="grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-5"
       >
         <ProjectCard projectDetails={projectData[1]} layout="flex-col!" />
         <ProjectCard projectDetails={projectData[2]} layout="flex-col!" />
         <ProjectCard projectDetails={projectData[4]} layout="flex-col!" />
       </section>
-      <h3 className="text-3xl my-10 text-center accent-text">All Projects</h3>
+      <h3 className="text-3xl my-10 text-center accent-text font-roboto">
+        All Projects
+      </h3>
       <section
         id="all-projects"
-        className="grid gap-5 grid-cols-1 justify-items-center lg:grid-cols-2 lg:gap-y-5 lg:gap-x-0 lg:px-5"
+        className="grid gap-5 grid-cols-1 justify-items-center lg:grid-cols-3"
       >
         {projectData.map((project) => (
           <ProjectCard projectDetails={project} key={project.id} />
         ))}
       </section>
+      <p className="text-2xl font-roboto">
+        More can be found within my Github Repo
+      </p>
+      <article className="icon-container">
+        <a
+          href="https://github.com/OleKodehode?tab=repositories"
+          target="_blank"
+        >
+          <GitHubDark size={64} />
+        </a>
+      </article>
     </>
   );
 }

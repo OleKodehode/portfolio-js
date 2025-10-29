@@ -1,7 +1,6 @@
 import App from "../App";
 import ErrorElement from "../components/ErrorElement";
 import About from "../pages/About";
-import Contact from "../pages/Contact";
 import Home from "../pages/Home";
 import ProjectDetails from "../pages/ProjectDetails";
 import Projects from "../pages/Projects";
@@ -35,11 +34,6 @@ const routes = [
       {
         path: "/about",
         element: <About />,
-        errorElement: <ErrorElement />,
-      },
-      {
-        path: "/contact",
-        element: <Contact />,
         errorElement: <ErrorElement />,
       },
     ],

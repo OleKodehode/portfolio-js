@@ -55,6 +55,24 @@ export default function About() {
             solutions, while leaving the visual design to those with the passion
             and knack for it.
           </p>
+          <p>
+            You can get a hold of me through my{" "}
+            <a
+              href="https://github.com/OleKodehode"
+              target="_blank"
+              className="accent-text hover:underline"
+            >
+              Github Profile
+            </a>{" "}
+            or{" "}
+            <a
+              href="https://www.linkedin.com/in/kodeole/"
+              target="_blank"
+              className="accent-text hover:underline"
+            >
+              Linkedin Profile
+            </a>
+          </p>
         </article>
         <article
           id="about-img"

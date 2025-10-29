@@ -15,7 +15,7 @@ export default function Navbar() {
         <img
           src="/img/favicon/Site-Icon.png"
           alt="Logo"
-          className="size-15 -mt-2 md:mt-0"
+          className="size-16 -mt-2 -mb-1 md:mt-0"
         />
         <h5 className="text-3xl font-roboto group-hover:scale-105 group-hover:translate-y-0.5 group-hover:underline">
           Kode-Ole
@@ -23,16 +23,10 @@ export default function Navbar() {
       </NavLink>
       <ul className="flex gap-2 md:gap-5 text-lg md:mr-5">
         <li>
-          <NavButton to="/">Home</NavButton>
-        </li>
-        <li>
           <NavButton to="projects">Projects</NavButton>
         </li>
         <li>
           <NavButton to="about">About</NavButton>
-        </li>
-        <li>
-          <NavButton to="contact">Contact</NavButton>
         </li>
       </ul>
     </nav>

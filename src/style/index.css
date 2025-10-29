@@ -29,15 +29,15 @@
 }
 
 .navbar {
-  @apply fixed top-0 left-0 w-full bg-zinc-100/80 text-zinc-900 dark:bg-zinc-800/50 dark:text-zinc-200 h-32 md:h-18 flex flex-col md:flex-row p-5 justify-between items-center shadow-2xl shadow-zinc-900/50 dark:shadow-none z-50;
+  @apply fixed top-0 left-0 w-full bg-zinc-100/80 text-zinc-900 dark:bg-zinc-800/80 dark:text-zinc-200 h-32 md:h-18 flex flex-col md:flex-row p-5 justify-between items-center shadow-2xl shadow-zinc-900/50 dark:shadow-none z-50;
 }
 
 main {
-  @apply mt-40 mb-20 md:mt-20 flex items-center justify-center flex-col max-w-full gap-5;
+  @apply mt-40 md:mt-30 mb-30 flex items-center justify-center flex-col max-w-full gap-5 mx-5;
 }
 
 .nav-btn {
-  @apply p-2  text-white bg-purple-500 hover:bg-purple-700 drop-shadow-lg outline outline-zinc-300/5 dark:bg-purple-700 dark:hover:bg-purple-500 rounded-xl hover:underline hover:-translate-y-2.5 dark:shadow-none dark:outline-none cursor-pointer active:dark:bg-purple-900 active:outline-0;
+  @apply p-2  text-white bg-purple-500 hover:bg-purple-700 drop-shadow-lg outline outline-zinc-300/5 dark:bg-purple-700 dark:hover:bg-purple-500 rounded-xl hover:underline hover:-translate-y-2.5 dark:shadow-none dark:outline-none cursor-pointer active:dark:bg-purple-900 active:outline-0 z-10;
 }
 
 .active-nav {
@@ -45,7 +45,7 @@ main {
 }
 
 .card {
-  @apply flex flex-col lg:flex-row w-8/10 items-center rounded-2xl bg-zinc-100 p-6 shadow-xl outline-2 outline-zinc-300/50 dark:bg-zinc-900 dark:shadow-md dark:-outline-offset-1 dark:outline-purple-500/50 text-zinc-900 dark:text-zinc-200;
+  @apply flex flex-col lg:flex-row w-9/10 lg:w-full items-center rounded-2xl bg-zinc-100 p-6 shadow-xl outline-2 outline-zinc-300/50 dark:bg-zinc-900 dark:shadow-md dark:-outline-offset-1 dark:outline-purple-500/50 text-zinc-900 dark:text-zinc-200 hover:dark:bg-purple-900/70;
 }
 
 .hover-card {
