@@ -13,7 +13,7 @@ export default function Navbar() {
         }
       >
         <img
-          src="/img/Site-Icon.png"
+          src="/img/favicon/Site-Icon.png"
           alt="Logo"
           className="size-15 -mt-2 md:mt-0"
         />

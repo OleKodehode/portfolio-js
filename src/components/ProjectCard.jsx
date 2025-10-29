@@ -1,16 +1,16 @@
 export default function ProjectCard({ projectDetails, layout = null }) {
-  const { title, summary, id } = projectDetails;
+  const { title, summary, thumbnail, id } = projectDetails;
   return (
     <a
       className={`card hover-card gap-2 ${layout ? layout : ""}`}
       href={`/projects/${id}`}
     >
       <img
-        src="./img/placeholder.png"
+        src={thumbnail ? thumbnail : "./img/placeholder.png"}
         alt=""
         width="150"
         height="150"
-        className="object-cover rounded-xl"
+        className="rounded-xl border-2"
       />
       <div className="flex flex-col md:gap-5">
         <h1 className="text-lg font-bold text-center">{title}</h1>
