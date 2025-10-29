@@ -15,8 +15,14 @@ export default function ProjectDetails() {
           details.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
         {!details && <p>{summary}</p>}
       </article>
-      <a href={linkRepo}>Link to GitHub Repo</a>
-      {linkPages && <a href={linkPages}>Link to GitHub Pages demo</a>}
+      <a href={linkRepo} target="_blank">
+        Link to GitHub Repo
+      </a>
+      {linkPages && (
+        <a href={linkPages} target="_blank">
+          Link to GitHub Pages demo
+        </a>
+      )}
       <button
         className="p-2 bg-purple-600 text-white rounded-xl mt-5 cursor-pointer hover:bg-purple-500"
         onClick={() => window.history.back()}
