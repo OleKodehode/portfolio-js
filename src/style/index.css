@@ -29,7 +29,7 @@
 }
 
 .navbar {
-  @apply fixed top-0 left-0 w-full bg-zinc-100/80 text-zinc-900 dark:bg-zinc-800/80 dark:text-zinc-200 h-32 md:h-18 flex flex-col md:flex-row p-5 justify-between items-center shadow-2xl shadow-zinc-900/50 dark:shadow-none z-50;
+  @apply fixed top-0 left-0 w-full bg-zinc-100/80 text-zinc-900 dark:bg-zinc-800/80 dark:text-zinc-200 h-32 md:h-18 flex flex-col md:flex-row p-5 justify-between items-center shadow-2xl shadow-zinc-900/50 dark:shadow-none z-50 outline-2 outline-zinc-900/50 dark:outline-0;
 }
 
 main {

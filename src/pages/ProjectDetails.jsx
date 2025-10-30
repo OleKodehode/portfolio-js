@@ -9,7 +9,7 @@ export default function ProjectDetails() {
   const { screenshot } = img;
   return (
     <>
-      <h1 className="text-2xl font-bold">{title}</h1>
+      <h1 className="text-2xl xl:text-4xl font-bold">{title}</h1>
       {screenshot && (
         <img
           src={screenshot}
