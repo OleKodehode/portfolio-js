@@ -2,132 +2,182 @@
   {
     "id": 12,
     "title": "This Portfolio",
-    "thumbnail": "/img/portfolio-thumbnail.webp",
-    "screenshot": "/img/portfolio-screenshot.webp",
+    "img": {
+      "thumbnail": "/img/portfolio-thumbnail.webp",
+      "screenshot": "/img/portfolio-screenshot.webp"
+    },
     "summary": "An ongoing project for several months using React & Tailwind",
     "details": [
       "I decided to go with React + vite (JS) with Tailwindcss for my Portfolio as we had just been learning React when we were gonna start building our Portfolios.",
       "The design part of the portfolio started in August of 2025, using Figma to set up Wireframes and over the course of the month experimenting and building out our designs.",
       "Portfolios are ever evolving, so even though I've made it during my stay at Kodehode, I'll still continue to update and tweak it going forward."
     ],
-    "linkRepo": "https://github.com/OleKodehode/portfolio-js",
-    "linkPages": ""
+    "links": {
+      "repo": "https://github.com/OleKodehode/portfolio-js",
+      "pages": ""
+    }
   },
   {
     "id": 11,
     "title": "Gutendex React App",
-    "thumbnail": "/img/gutendex-thumbnail.webp",
-    "screenshot": "/img/gutendex-screenshot.webp",
+    "img": {
+      "thumbnail": "/img/gutendex-thumbnail.webp",
+      "screenshot": "/img/gutendex-screenshot.webp"
+    },
     "summary": "As the final React assingment we were tasked to make a book finder app using the Gutendex API",
     "details": "",
-    "linkRepo": "https://github.com/OleKodehode/gutendex",
-    "linkPages": "https://olekodehode.github.io/gutendex/"
+    "links": {
+      "repo": "https://github.com/OleKodehode/gutendex",
+      "pages": "https://olekodehode.github.io/gutendex/"
+    }
   },
   {
     "id": 10,
     "title": "Match 2 React App",
-    "thumbnail": "/img/match2-thumbnail.webp",
-    "screenshot": "/img/match2-screenshot.webp",
+    "img": {
+      "thumbnail": "/img/match2-thumbnail.webp",
+      "screenshot": "/img/match2-screenshot.webp"
+    },
     "summary": "As a project spanning a couple of days, we were told to make a match 2 memory game using React",
     "details": "",
-    "linkRepo": "https://github.com/OleKodehode/react-memory-light-project",
-    "linkPages": "https://olekodehode.github.io/react-memory-light-project/"
+    "links": {
+      "repo": "https://github.com/OleKodehode/react-memory-light-project",
+      "pages": "https://olekodehode.github.io/react-memory-light-project/"
+    }
   },
   {
     "id": 9,
     "title": "Jokes & Useless Facts",
-    "thumbnail": "/img/jokes-thumbnail.webp",
-    "screenshot": "/img/jokes-screenshot.webp",
+    "img": {
+      "thumbnail": "/img/jokes-thumbnail.webp",
+      "screenshot": "/img/jokes-screenshot.webp"
+    },
     "summary": "Small API assignment to utilize any free publicly available APIs",
     "details": "",
-    "linkRepo": "https://github.com/OleKodehode/JS-API-Assignment",
-    "linkPages": "https://olekodehode.github.io/JS-API-Assignment/"
+    "links": {
+      "repo": "https://github.com/OleKodehode/JS-API-Assignment",
+      "pages": "https://olekodehode.github.io/JS-API-Assignment/"
+    }
   },
   {
     "id": 8,
     "title": "Recipe Archive",
-    "thumbnail": "/img/recipe-thumbnail.webp",
-    "screenshot": "/img/recipe-screenshot.webp",
+    "img": {
+      "thumbnail": "/img/recipe-thumbnail.webp",
+      "screenshot": "/img/recipe-screenshot.webp"
+    },
     "summary": "I decided to go with a recipe archive when we got an assignment to utilize LocalStorage",
     "details": "",
-    "linkRepo": "https://github.com/OleKodehode/Recipes-Archive",
-    "linkPages": "https://olekodehode.github.io/Recipes-Archive/"
+    "links": {
+      "repo": "https://github.com/OleKodehode/Recipes-Archive",
+      "pages": "https://olekodehode.github.io/Recipes-Archive/"
+    }
   },
   {
     "id": 7,
     "title": "Movable Object",
-    "thumbnail": "/img/movable-thumbnail.webp",
-    "screenshot": "/img/movable-screenshot.webp",
+    "img": {
+      "thumbnail": "/img/movable-thumbnail.webp",
+      "screenshot": "/img/movable-screenshot.webp"
+    },
     "summary": "Small project to make a movable object on the screen using Javascript",
     "details": "",
-    "linkRepo": "https://github.com/OleKodehode/movable-object",
-    "linkPages": "https://olekodehode.github.io/movable-object/"
+    "links": {
+      "repo": "https://github.com/OleKodehode/movable-object",
+      "pages": "https://olekodehode.github.io/movable-object/"
+    }
   },
   {
     "id": 6,
     "title": "Bubble Popping",
-    "thumbnail": "/img/bubble-thumbnail.webp",
-    "screenshot": "/img/bubble-screenshot.webp",
+    "img": {
+      "thumbnail": "/img/bubble-thumbnail.webp",
+      "screenshot": "/img/bubble-screenshot.webp"
+    },
     "summary": "Simple assignment in DOM manipulation using Javascript",
     "details": "",
-    "linkRepo": "https://github.com/OleKodehode/DOM-manipulation-assignment",
-    "linkPages": "https://olekodehode.github.io/DOM-manipulation-assignment/"
+    "links": {
+      "repo": "https://github.com/OleKodehode/DOM-manipulation-assignment",
+      "pages": "https://olekodehode.github.io/DOM-manipulation-assignment/"
+    }
   },
   {
     "id": 5,
     "title": "CSS Animations",
-    "thumbnail": "/img/cssanim-thumbnail.webp",
-    "screenshot": "/img/cssanim-screenshot.webp",
+    "img": {
+      "thumbnail": "/img/cssanim-thumbnail.webp",
+      "screenshot": "/img/cssanim-screenshot.webp"
+    },
     "summary": "Made a small website for Kristiansund municipality for showing off some animation and transition knowledge",
     "details": "",
-    "linkRepo": "https://github.com/OleKodehode/css-advanced-3",
-    "linkPages": "https://olekodehode.github.io/css-advanced-3/"
+    "linsk": {
+      "repo": "https://github.com/OleKodehode/css-advanced-3",
+      "pages": "https://olekodehode.github.io/css-advanced-3/"
+    }
   },
   {
     "id": 4,
     "title": "Confetti",
-    "thumbnail": "/img/confetti-thumbnail.webp",
-    "screenshot": "/img/confetti-screenshot.webp",
+    "img": {
+      "thumbnail": "/img/confetti-thumbnail.webp",
+      "screenshot": "/img/confetti-screenshot.webp"
+    },
     "summary": "Small assignment to make a confetti button",
     "details": "",
-    "linkRepo": "https://github.com/OleKodehode/Konfetti_Oppgave",
-    "linkPages": "https://olekodehode.github.io/Konfetti_Oppgave/"
+    "links": {
+      "repo": "https://github.com/OleKodehode/Konfetti_Oppgave",
+      "pages": "https://olekodehode.github.io/Konfetti_Oppgave/"
+    }
   },
   {
     "id": 3,
     "title": "Frontend Mentor Challenge",
-    "thumbnail": "/img/mentor-thumbnail.webp",
-    "screenshot": "/img/mentor-screenshot.webp",
+    "img": {
+      "thumbnail": "/img/mentor-thumbnail.webp",
+      "screenshot": "/img/mentor-screenshot.webp"
+    },
     "summary": "We were tasked to do the Frontend mentor testimonial grid challenge",
     "details": "",
-    "linkRepo": "https://github.com/OleKodehode/CSS_Advanced_1",
-    "linkPages": "https://olekodehode.github.io/CSS_Advanced_1/"
+    "links": {
+      "repo": "https://github.com/OleKodehode/CSS_Advanced_1",
+      "pages": "https://olekodehode.github.io/CSS_Advanced_1/"
+    }
   },
   {
     "id": 2,
     "title": "To-do list",
-    "thumbnail": "/img/jsapi-thumbnail.webp",
-    "screenshot": "/img/jsapi-screenshot.webp",
+    "img": {
+      "thumbnail": "/img/jsapi-thumbnail.webp",
+      "screenshot": "/img/jsapi-screenshot.webp"
+    },
     "summary": "Extra Assingment to make a todo-list using an API",
     "details": "",
-    "linkRepo": "https://github.com/OleKodehode/EkstraEkstraOppgave",
-    "linkPages": "https://olekodehode.github.io/EkstraEkstraOppgave/"
+    "links": {
+      "repo": "https://github.com/OleKodehode/EkstraEkstraOppgave",
+      "pages": "https://olekodehode.github.io/EkstraEkstraOppgave/"
+    }
   },
   {
     "id": 1,
     "title": "Craftsvilla",
-    "thumbnail": "/img/craftsvilla-thumbnail.webp",
-    "screenshot": "/img/craftsvilla-screenshot.webp",
+    "img": {
+      "thumbnail": "/img/craftsvilla-thumbnail.webp",
+      "screenshot": "/img/craftsvilla-screenshot.webp"
+    },
     "summary": "Progress after about one month into the course",
     "details": "",
-    "linkRepo": "https://github.com/OleKodehode/craftsvilla_assignment",
-    "linkPages": "https://olekodehode.github.io/craftsvilla_assignment/"
+    "links": {
+      "repo": "https://github.com/OleKodehode/craftsvilla_assignment",
+      "pages": "https://olekodehode.github.io/craftsvilla_assignment/"
+    }
   },
   {
     "id": 0,
     "title": "First Assignment",
-    "thumbnail": "/img/firstproject-thumbnail.webp",
-    "screenshot": "/img/firstproject-screenshot.webp",
+    "img": {
+      "thumbnail": "/img/firstproject-thumbnail.webp",
+      "screenshot": "/img/firstproject-screenshot.webp"
+    },
     "summary": "My first assigment done at Kodehode - Where my journey began.",
     "details": [
       "Where my journey at Kodehode began at the end of May 2025.",
@@ -135,7 +185,9 @@
       "Though, I had largely focused on Python once I got to that part of their curriculum, so most of this project were done based on googling and the small amount of lectures we had during the first week.",
       "The difference between my first week and now is quite stark - I've learned a lot during my time at Kodehode!"
     ],
-    "linkRepo": "https://github.com/OleKodehode/first-assignment",
-    "linkPages": "https://olekodehode.github.io/first-assignment/"
+    "links": {
+      "repo": "https://github.com/OleKodehode/first-assignment",
+      "pages": "https://olekodehode.github.io/first-assignment/"
+    }
   }
 ]

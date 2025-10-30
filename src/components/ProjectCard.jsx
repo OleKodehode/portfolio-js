@@ -1,5 +1,6 @@
 export default function ProjectCard({ projectDetails, layout = null }) {
-  const { title, summary, thumbnail, id } = projectDetails;
+  const { title, summary, img, id } = projectDetails;
+  const { thumbnail } = img;
   return (
     <a
       className={`card hover-card gap-2 ${layout ? layout : ""}`}

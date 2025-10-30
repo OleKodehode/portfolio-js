@@ -4,7 +4,9 @@ import projects from "../models/projects.json";
 export default function ProjectDetails() {
   const { id } = useParams();
   const project = projects.find((project) => project.id === parseInt(id));
-  const { title, screenshot, summary, details, linkRepo, linkPages } = project;
+  const { title, img, summary, details, links } = project;
+  const { repo, pages } = links;
+  const { screenshot } = img;
   return (
     <>
       <h1 className="text-2xl">{title}</h1>
@@ -15,11 +17,11 @@ export default function ProjectDetails() {
           details.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
         {!details && <p>{summary}</p>}
       </article>
-      <a href={linkRepo} target="_blank">
+      <a href={repo} target="_blank">
         Link to GitHub Repo
       </a>
-      {linkPages && (
-        <a href={linkPages} target="_blank">
+      {pages && (
+        <a href={pages} target="_blank">
           Link to GitHub Pages demo
         </a>
       )}
