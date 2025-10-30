@@ -151,7 +151,10 @@
       "screenshot": "/img/jsapi-screenshot.webp"
     },
     "summary": "Extra Assingment to make a todo-list using an API",
-    "details": "",
+    "details": [
+      "We had the option to take some extra assignments during the course, and this is one of them.",
+      "We were given a couple of JavaScript files to utilize to manipulate the DOM to dynamically populate a pre-set to-do list based on some fetched data."
+    ],
     "links": {
       "repo": "https://github.com/OleKodehode/EkstraEkstraOppgave",
       "pages": "https://olekodehode.github.io/EkstraEkstraOppgave/"
@@ -165,7 +168,10 @@
       "screenshot": "/img/craftsvilla-screenshot.webp"
     },
     "summary": "Progress after about one month into the course",
-    "details": "",
+    "details": [
+      "This was an assignment after about a month into Kodehode's curriculum, having being taught HTML and basic CSS at this point.",
+      "We were asked to design a multi-page website for a fictional company called Craftsvilla, which was all about creativity and arts"
+    ],
     "links": {
       "repo": "https://github.com/OleKodehode/craftsvilla_assignment",
       "pages": "https://olekodehode.github.io/craftsvilla_assignment/"
@@ -182,7 +188,7 @@
     "details": [
       "Where my journey at Kodehode began at the end of May 2025.",
       "Coming into the web developer course, I had some basic knowledge of HTML, CSS & JS after having gone through freecodecamp's curriculum a bit a year prior.",
-      "Though, I had largely focused on Python once I got to that part of their curriculum, so most of this project were done based on googling and the small amount of lectures we had during the first week.",
+      "I started focusing on Python once I got to that part of their curriculum, so most of this project were done based on googling and the small amount of lectures we had during the first week.",
       "The difference between my first week and now is quite stark - I've learned a lot during my time at Kodehode!"
     ],
     "links": {
