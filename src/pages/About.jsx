@@ -10,6 +10,7 @@ import {
   React,
   TailwindCSS,
 } from "developer-icons";
+import Skillbar from "../components/Skillbar";
 
 export default function About() {
   return (
@@ -79,33 +80,42 @@ export default function About() {
       </section>
       <h2 className="text-2xl font-roboto">Skills</h2>
       <section className="skills ">
-        <article title="HTML5">
+        <article title="HTML5" className="skill-box group/skill">
           <HTML5 size={48} />
+          <Skillbar value={100} tooltip={"Confident"} color={"green"} />
         </article>
-        <article title="CSS">
+        <article title="CSS" className="skill-box group/skill">
           <CSS size={48} />
+          <Skillbar value={90} tooltip={"Somewhat Confident"} color={"green"} />
         </article>
-        <article title="JavaScript">
+        <article title="JavaScript" className="skill-box group/skill">
           <JavaScript size={48} className="rounded-xl" />
+          <Skillbar value={95} tooltip={"Confident"} color={"green"} />
         </article>
-        <article title="React">
+        <article title="React" className="skill-box group/skill">
           <React size={48} />
+          <Skillbar value={80} tooltip={"Confident"} color={"green"} />
         </article>
-        <article>
+        <article title="Tailwind CSS" className="skill-box group/skill">
           <TailwindCSS size={48} />
+          <Skillbar value={100} tooltip={"Confident"} color={"green"} />
         </article>
-        <article title="NodeJS">
+        <article title="NodeJS" className="skill-box group/skill">
           <NodeJs size={48} />
+          <Skillbar value={50} tooltip={"Still Learning"} color={"yellow"} />
         </article>
-        <article title="Express">
+        <article title="Express" className="skill-box group/skill">
           <ExpressJsDark size={48} className="dark:hidden" />
           <ExpressJsLight size={48} className="hidden dark:block" />
+          <Skillbar value={50} tooltip={"Still Learning"} color={"yellow"} />
         </article>
-        <article title="SQL">
+        <article title="SQL" className="skill-box group/skill">
           <MicrosoftSQLServer2 size={48} />
+          <Skillbar value={75} tooltip={"Confident"} color={"green"} />
         </article>
-        <article title="Python">
+        <article title="Python" className="skill-box group/skill">
           <Python size={48} />
+          <Skillbar value={60} tooltip={"Need a refresher"} color={"yellow"} />
         </article>
       </section>
     </>
