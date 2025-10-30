@@ -9,19 +9,25 @@ export default function ProjectDetails() {
   const { screenshot } = img;
   return (
     <>
-      <h1 className="text-2xl">{title}</h1>
-      {screenshot && <img src={screenshot} alt="Project" />}
+      <h1 className="text-2xl font-bold">{title}</h1>
+      {screenshot && (
+        <img
+          src={screenshot}
+          alt="Project"
+          className="rounded-xl shadow-md dark:shadow-none shadow-zinc-800"
+        />
+      )}
       <article className="w-8/10 lg:w-1/2 flex flex-col gap-5 text-lg">
         {" "}
         {details &&
           details.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
         {!details && <p>{summary}</p>}
       </article>
-      <a href={repo} target="_blank">
+      <a href={repo} target="_blank" className="font-bold">
         Link to GitHub Repo
       </a>
       {pages && (
-        <a href={pages} target="_blank">
+        <a href={pages} target="_blank" className="font-bold">
           Link to GitHub Pages demo
         </a>
       )}
