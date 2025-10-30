@@ -17,7 +17,7 @@ export default function ProjectDetails() {
           className="rounded-xl shadow-md dark:shadow-none shadow-zinc-800"
         />
       )}
-      <article className="w-8/10 lg:w-1/2 flex flex-col gap-5 text-lg">
+      <article className="w-8/10 lg:w-1/2 flex flex-col gap-5 text-lg font-black">
         {" "}
         {details &&
           details.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
