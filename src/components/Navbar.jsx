@@ -7,7 +7,7 @@ export default function Navbar() {
       <NavLink
         to="/"
         className={({ isActive }) =>
-          `flex items-center justify-center group transition-all duration-400 ${
+          `flex items-center justify-center group transition-all duration-400 text-shadow-xs text-shadow-zinc-900 dark:text-shadow-none ${
             isActive ? "text-purple-500 dark:text-purple-700" : ""
           } `
         }

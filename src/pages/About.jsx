@@ -68,7 +68,7 @@ export default function About() {
         </article>
         <article
           id="about-img"
-          className="hidden xl:block md:w-[60svw] md:h-[40svh] lg:w-[80svw] lg:h-[60svh] relative rounded-2xl overflow-clip max-w-[500px]"
+          className="hidden xl:block md:w-[60svw] md:h-[40svh] lg:w-[80svw] lg:h-[60svh] relative rounded-2xl overflow-clip max-w-[500px] shadow-lg shadow-zinc-900 dark:shadow-none"
         >
           <div className="bg-[url(/img/about-bg.webp)] bg-cover bg-center w-full h-full blur-[1px]"></div>
           <img

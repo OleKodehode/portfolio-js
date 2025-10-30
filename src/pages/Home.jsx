@@ -10,7 +10,7 @@ export default function Home() {
           <img
             src="/img/landing-img.png"
             alt="cover"
-            className=" m-auto rounded-xl w-11/12 md:w-8/12 xl:w-1/2"
+            className=" m-auto rounded-xl w-11/12 md:w-8/12 xl:w-1/2 shadow-xl shadow-zinc-900/50 dark:shadow-none"
           />
         </picture>
 

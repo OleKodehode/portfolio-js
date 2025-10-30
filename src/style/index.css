@@ -45,7 +45,7 @@ main {
 }
 
 .card {
-  @apply flex flex-col lg:flex-row w-9/10 lg:w-full items-center rounded-2xl bg-zinc-100 p-6 shadow-xl outline-2 outline-zinc-300/50 dark:bg-zinc-900 dark:shadow-md dark:-outline-offset-1 dark:outline-purple-500/50 text-zinc-900 dark:text-zinc-200 hover:dark:bg-purple-900/70;
+  @apply flex flex-col lg:flex-row w-9/10 lg:w-full items-center rounded-2xl bg-zinc-100 p-6 shadow-xl outline-3 dark:outline-2 outline-purple-600/80 dark:bg-zinc-900 dark:shadow-md dark:-outline-offset-1 dark:outline-purple-500/50 text-zinc-900 dark:text-zinc-200 hover:bg-zinc-200 hover:dark:bg-purple-900/70;
 }
 
 .hover-card {
@@ -53,7 +53,7 @@ main {
 }
 
 .about-section {
-  @apply flex w-9/10 items-center bg-zinc-100 dark:bg-zinc-900 rounded-xl p-5 xl:px-10 shadow-xl outline-2 outline-purple-500/50 text-zinc-900 dark:text-zinc-200;
+  @apply flex w-9/10 items-center bg-zinc-100 dark:bg-zinc-900 rounded-xl p-5 xl:px-10 shadow-xl shadow-purple-600/40 outline-5 outline-purple-600 dark:outline-2 dark:outline-purple-500/50 text-zinc-900 dark:text-zinc-200;
 }
 
 .skills {
@@ -85,11 +85,11 @@ main {
 }
 
 main > a {
-  @apply text-purple-700 dark:text-purple-400 hover:underline;
+  @apply text-purple-800 dark:text-purple-400 hover:underline;
 }
 
 .footer {
-  @apply fixed bottom-0 left-1/10 lg:left-1/4 w-8/10 lg:w-1/2 bg-zinc-100/80 text-zinc-900 dark:bg-zinc-800/80 dark:text-zinc-200 h-18 flex flex-row p-5 justify-between items-center shadow-2xl shadow-zinc-900/50 dark:shadow-none z-50 rounded-t-2xl;
+  @apply fixed bottom-0 left-1/10 lg:left-1/4 w-8/10 lg:w-1/2 bg-zinc-100/80 text-zinc-900 dark:bg-zinc-800/80 dark:text-zinc-200 h-18 flex flex-row p-5 justify-between items-center shadow-2xl shadow-zinc-900/50 dark:shadow-none z-50 rounded-t-2xl outline-2 outline-zinc-900/50 dark:outline-0;
 }
 
 .tooltip {
