@@ -24,7 +24,7 @@
 }
 
 :root {
-  @apply bg-zinc-50 text-zinc-900 dark:text-zinc-200 dark:bg-stone-900 leading-relaxed max-w-screen;
+  @apply bg-zinc-50 text-zinc-900 dark:text-zinc-200 dark:bg-stone-900 leading-relaxed max-w-screen selection:bg-purple-600 selection:text-zinc-900 dark:selection:text-zinc-200;
   font-family: "Saira", sans-serif, system-ui;
 }
 

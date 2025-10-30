@@ -5,7 +5,7 @@ import projectData from "../models/projects.json";
 export default function Projects() {
   return (
     <>
-      <h1 className="text-4xl mb-10 text-center accent-text font-roboto">
+      <h1 className="text-4xl mb-10 text-center accent-text font-roboto text-shadow-lg text-shadow-purple-600/20 dark:text-shadow-none">
         Highlighted Projects
       </h1>
       <section
@@ -16,7 +16,7 @@ export default function Projects() {
         <ProjectCard projectDetails={projectData[2]} layout="flex-col!" />
         <ProjectCard projectDetails={projectData[4]} layout="flex-col!" />
       </section>
-      <h3 className="text-3xl my-10 text-center accent-text font-roboto">
+      <h3 className="text-3xl my-10 text-center accent-text font-roboto text-shadow-lg text-shadow-purple-600/20 dark:text-shadow-none">
         All Projects
       </h3>
       <section
