@@ -15,30 +15,21 @@ export default function About() {
   return (
     <>
       <h1 className="font-roboto text-4xl mb-5 text-center">About me</h1>
-      <section className="mb-5 max-w-screen mx-5">
-        <div className="flex gap-5 flex-wrap justify-evenly">
-          <HTML5 size={48} />
-          <CSS size={48} />
-          <JavaScript size={48} />
-          <React size={48} />
-          <TailwindCSS size={48} />
-          <NodeJs size={48} />
-          <ExpressJsDark size={48} className="dark:hidden" />
-          <ExpressJsLight size={48} className="hidden dark:block" />
-          <MicrosoftSQLServer2 size={48} />
-          <Python size={48} />
-        </div>
-      </section>
-      <section className="card gap-5 md:p-8 lg:gap-10">
+      <section className="about-section flex-col xl:flex-row gap-5 md:p-8 lg:gap-10 xl:justify-between">
         <article
           id="about-text"
           className="text-lg md:text-xl flex flex-col gap-5 lg:gap-10"
         >
-          <img
-            src="/img/about-sm-portrait.webp"
-            alt=""
-            className="rounded-[100%] border-4 border-purple-500 relative  bg-zinc-800/80 w-50 md:hidden animate-fadein-port"
-          />
+          <div
+            id="sm-portrait-bg"
+            className=" xl:hidden rounded-[100%] border-4 border-purple-500  bg-zinc-800/80 size-50 place-self-center overflow-hidden"
+          >
+            <img
+              src="/img/about-sm-portrait.webp"
+              alt=""
+              className="animate-fadein-reverse"
+            />
+          </div>
           <p className="font-bold">
             My name is Ole and I'm an aspiring developer with a growing interest
             in system logic and backend architecture.
@@ -76,14 +67,45 @@ export default function About() {
         </article>
         <article
           id="about-img"
-          className="md:w-[60svw] md:h-[40svh] lg:w-[80svw] lg:h-[60svh] relative rounded-2xl overflow-clip"
+          className="hidden xl:block md:w-[60svw] md:h-[40svh] lg:w-[80svw] lg:h-[60svh] relative rounded-2xl overflow-clip max-w-[500px]"
         >
           <div className="bg-[url(/img/about-bg.webp)] bg-cover bg-center w-full h-full blur-[1px]"></div>
           <img
             src="/img/about-lg-portrait.webp"
             alt=""
-            className="hidden md:block absolute top-0 left-0 rounded animate-fadein-reverse w-full h-auto"
+            className="hidden xl:block absolute -bottom-25 right-0 rounded animate-fadein-reverse w-full max-w-[485px] rounded-b-lg"
           />
+        </article>
+      </section>
+      <h2 className="text-2xl font-roboto">Skills</h2>
+      <section className="skills ">
+        <article title="HTML5">
+          <HTML5 size={48} />
+        </article>
+        <article title="CSS">
+          <CSS size={48} />
+        </article>
+        <article title="JavaScript">
+          <JavaScript size={48} className="rounded-xl" />
+        </article>
+        <article title="React">
+          <React size={48} />
+        </article>
+        <article>
+          <TailwindCSS size={48} />
+        </article>
+        <article title="NodeJS">
+          <NodeJs size={48} />
+        </article>
+        <article title="Express">
+          <ExpressJsDark size={48} className="dark:hidden" />
+          <ExpressJsLight size={48} className="hidden dark:block" />
+        </article>
+        <article title="SQL">
+          <MicrosoftSQLServer2 size={48} />
+        </article>
+        <article title="Python">
+          <Python size={48} />
         </article>
       </section>
     </>

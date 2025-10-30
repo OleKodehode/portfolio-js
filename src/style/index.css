@@ -52,6 +52,14 @@ main {
   @apply hover:dark:shadow-purple-400 hover:-translate-y-0.5 cursor-pointer;
 }
 
+.about-section {
+  @apply flex w-9/10 items-center bg-zinc-100 dark:bg-zinc-900 rounded-xl p-5 xl:px-10 shadow-xl outline-2 outline-purple-500/50 text-zinc-900 dark:text-zinc-200;
+}
+
+.skills {
+  @apply grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 w-9/10 bg-zinc-100 dark:bg-zinc-900 rounded-xl p-6 shadow-xl outline-2 outline-purple-500/50 text-zinc-900 dark:text-zinc-200 gap-5;
+}
+
 #about-text {
   @apply max-w-8/10 lg:max-w-6/10;
 }
@@ -82,10 +90,6 @@ main > a {
 
 .animate-fadein-reverse {
   animation: fadeInRight 1s ease-in-out forwards;
-}
-
-.animate-fadein-port {
-  animation: fadeInLeft 1s ease forwards;
 }
 
 .anim-delay-2 {

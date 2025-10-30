@@ -7,6 +7,7 @@ export default function NavButton({ to, children }) {
       className={({ isActive }) =>
         isActive ? "nav-btn active-nav" : "nav-btn"
       }
+      viewTransition
     >
       <button>{children}</button>
     </NavLink>

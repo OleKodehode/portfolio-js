@@ -11,6 +11,7 @@ export default function Navbar() {
             isActive ? "text-purple-500 dark:text-purple-700" : ""
           } `
         }
+        viewTransition
       >
         <img
           src="/img/favicon/Site-Icon.png"
