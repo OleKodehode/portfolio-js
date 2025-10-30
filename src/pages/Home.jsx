@@ -22,7 +22,10 @@ export default function Home() {
             No Fluff
           </p>
           <p className="absolute top-40 left-25 md:top-40 md:left-70 xl:top-60 xl:left-120 animate-fadein anim-delay-3 opacity-0 ">
-            Just <span className="text-purple-700">Function</span>
+            Just{" "}
+            <span className="text-purple-500 dark:text-purple-700">
+              Function
+            </span>
           </p>
         </div>
       </div>

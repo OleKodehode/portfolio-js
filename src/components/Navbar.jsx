@@ -16,7 +16,12 @@ export default function Navbar() {
         <img
           src="/img/favicon/Site-Icon.png"
           alt="Logo"
-          className="size-16 -mt-2 -mb-1 md:mt-0"
+          className="hidden dark:block size-16 -mt-2 -mb-1 md:mt-0"
+        />
+        <img
+          src="/img/favicon/Site-Icon-light.png"
+          alt="Logo"
+          className="dark:hidden size-16 -mt-2 -mb-1 md:mt-0"
         />
         <h5 className="text-3xl font-roboto group-hover:scale-105 group-hover:translate-y-0.5 group-hover:underline">
           Kode-Ole
