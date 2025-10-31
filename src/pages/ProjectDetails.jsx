@@ -12,7 +12,7 @@ export default function ProjectDetails() {
       <h1 className="text-2xl xl:text-4xl font-bold">{title}</h1>
       {screenshot && (
         <img
-          src={screenshot}
+          src={`${import.meta.env.BASE_URL}${screenshot}`}
           alt="Project"
           className="rounded-xl shadow-md dark:shadow-none shadow-zinc-800"
         />

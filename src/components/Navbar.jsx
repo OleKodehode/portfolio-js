@@ -1,6 +1,9 @@
 import { NavLink } from "react-router-dom";
 import NavButton from "./NavButton";
 
+import logoDark from "../assets/Site-Icon.png";
+import logoLight from "../assets/Site-Icon-light.png";
+
 export default function Navbar() {
   return (
     <nav className="navbar">
@@ -14,12 +17,12 @@ export default function Navbar() {
         viewTransition
       >
         <img
-          src="./img/favicon/Site-Icon.png"
+          src={logoDark}
           alt="Logo"
           className="hidden dark:block size-16 -mt-2 -mb-1 md:mt-0"
         />
         <img
-          src="./img/favicon/Site-Icon-light.png"
+          src={logoLight}
           alt="Logo"
           className="dark:hidden size-16 -mt-2 -mb-1 md:mt-0"
         />
