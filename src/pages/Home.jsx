@@ -4,11 +4,11 @@ export default function Home() {
       <div className="relative xl:-mb-20">
         <picture>
           <source
-            srcSet="/img/landing-img-port.png"
+            srcSet="./img/landing-img-port.png"
             media="(max-width: 900px)"
           />
           <img
-            src="/img/landing-img.png"
+            src="./img/landing-img.png"
             alt="cover"
             className=" m-auto rounded-xl w-11/12 md:w-8/12 xl:w-1/2 shadow-xl shadow-zinc-900/50 dark:shadow-none"
           />
