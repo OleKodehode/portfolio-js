@@ -3,8 +3,8 @@
     "id": 12,
     "title": "This Portfolio",
     "img": {
-      "thumbnail": "/img/portfolio-thumbnail.webp",
-      "screenshot": "/img/portfolio-screenshot.webp"
+      "thumbnail": "./img/portfolio-thumbnail.webp",
+      "screenshot": "./img/portfolio-screenshot.webp"
     },
     "summary": "An ongoing project for several months using React & Tailwind",
     "details": [
@@ -21,8 +21,8 @@
     "id": 11,
     "title": "Gutendex React App",
     "img": {
-      "thumbnail": "/img/gutendex-thumbnail.webp",
-      "screenshot": "/img/gutendex-screenshot.webp"
+      "thumbnail": "./img/gutendex-thumbnail.webp",
+      "screenshot": "./img/gutendex-screenshot.webp"
     },
     "summary": "As the final React assingment we were tasked to make a book finder app using the Gutendex API",
     "details": "",
@@ -35,8 +35,8 @@
     "id": 10,
     "title": "Match 2 React App",
     "img": {
-      "thumbnail": "/img/match2-thumbnail.webp",
-      "screenshot": "/img/match2-screenshot.webp"
+      "thumbnail": "./img/match2-thumbnail.webp",
+      "screenshot": "./img/match2-screenshot.webp"
     },
     "summary": "As a project spanning a couple of days, we were told to make a match 2 memory game using React",
     "details": "",
@@ -49,8 +49,8 @@
     "id": 9,
     "title": "Jokes & Useless Facts",
     "img": {
-      "thumbnail": "/img/jokes-thumbnail.webp",
-      "screenshot": "/img/jokes-screenshot.webp"
+      "thumbnail": "./img/jokes-thumbnail.webp",
+      "screenshot": "./img/jokes-screenshot.webp"
     },
     "summary": "Small API assignment to utilize any free publicly available APIs",
     "details": "",
@@ -63,8 +63,8 @@
     "id": 8,
     "title": "Recipe Archive",
     "img": {
-      "thumbnail": "/img/recipe-thumbnail.webp",
-      "screenshot": "/img/recipe-screenshot.webp"
+      "thumbnail": "./img/recipe-thumbnail.webp",
+      "screenshot": "./img/recipe-screenshot.webp"
     },
     "summary": "I decided to go with a recipe archive when we got an assignment to utilize LocalStorage",
     "details": "",
@@ -77,8 +77,8 @@
     "id": 7,
     "title": "Movable Object",
     "img": {
-      "thumbnail": "/img/movable-thumbnail.webp",
-      "screenshot": "/img/movable-screenshot.webp"
+      "thumbnail": "./img/movable-thumbnail.webp",
+      "screenshot": "./img/movable-screenshot.webp"
     },
     "summary": "Small project to make a movable object on the screen using Javascript",
     "details": "",
@@ -91,8 +91,8 @@
     "id": 6,
     "title": "Bubble Popping",
     "img": {
-      "thumbnail": "/img/bubble-thumbnail.webp",
-      "screenshot": "/img/bubble-screenshot.webp"
+      "thumbnail": "./img/bubble-thumbnail.webp",
+      "screenshot": "./img/bubble-screenshot.webp"
     },
     "summary": "Simple assignment in DOM manipulation using Javascript",
     "details": "",
@@ -105,8 +105,8 @@
     "id": 5,
     "title": "CSS Animations",
     "img": {
-      "thumbnail": "/img/cssanim-thumbnail.webp",
-      "screenshot": "/img/cssanim-screenshot.webp"
+      "thumbnail": "./img/cssanim-thumbnail.webp",
+      "screenshot": "./img/cssanim-screenshot.webp"
     },
     "summary": "Made a small website for Kristiansund municipality for showing off some animation and transition knowledge",
     "details": "",
@@ -119,8 +119,8 @@
     "id": 4,
     "title": "Confetti",
     "img": {
-      "thumbnail": "/img/confetti-thumbnail.webp",
-      "screenshot": "/img/confetti-screenshot.webp"
+      "thumbnail": "./img/confetti-thumbnail.webp",
+      "screenshot": "./img/confetti-screenshot.webp"
     },
     "summary": "Small assignment to make a confetti button",
     "details": "",
@@ -133,8 +133,8 @@
     "id": 3,
     "title": "Frontend Mentor Challenge",
     "img": {
-      "thumbnail": "/img/mentor-thumbnail.webp",
-      "screenshot": "/img/mentor-screenshot.webp"
+      "thumbnail": "./img/mentor-thumbnail.webp",
+      "screenshot": "./img/mentor-screenshot.webp"
     },
     "summary": "We were tasked to do the Frontend mentor testimonial grid challenge",
     "details": "",
@@ -147,8 +147,8 @@
     "id": 2,
     "title": "To-do list",
     "img": {
-      "thumbnail": "/img/jsapi-thumbnail.webp",
-      "screenshot": "/img/jsapi-screenshot.webp"
+      "thumbnail": "./img/jsapi-thumbnail.webp",
+      "screenshot": "./img/jsapi-screenshot.webp"
     },
     "summary": "Extra Assingment to make a todo-list using an API",
     "details": [
@@ -164,8 +164,8 @@
     "id": 1,
     "title": "Craftsvilla",
     "img": {
-      "thumbnail": "/img/craftsvilla-thumbnail.webp",
-      "screenshot": "/img/craftsvilla-screenshot.webp"
+      "thumbnail": "./img/craftsvilla-thumbnail.webp",
+      "screenshot": "./img/craftsvilla-screenshot.webp"
     },
     "summary": "Progress after about one month into the course",
     "details": [
@@ -181,8 +181,8 @@
     "id": 0,
     "title": "First Assignment",
     "img": {
-      "thumbnail": "/img/firstproject-thumbnail.webp",
-      "screenshot": "/img/firstproject-screenshot.webp"
+      "thumbnail": "./img/firstproject-thumbnail.webp",
+      "screenshot": "./img/firstproject-screenshot.webp"
     },
     "summary": "My first assigment done at Kodehode - Where my journey began.",
     "details": [

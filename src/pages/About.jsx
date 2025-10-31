@@ -26,7 +26,7 @@ export default function About() {
             className=" xl:hidden rounded-[100%] border-4 border-purple-500  bg-zinc-800/80 size-50 place-self-center overflow-hidden"
           >
             <img
-              src="/img/about-sm-portrait.webp"
+              src="./img/about-sm-portrait.webp"
               alt=""
               className="animate-fadein-reverse"
             />
@@ -72,7 +72,7 @@ export default function About() {
         >
           <div className="bg-[url(/img/about-bg.webp)] bg-cover bg-center w-full h-full blur-[1px]"></div>
           <img
-            src="/img/about-lg-portrait.webp"
+            src="./img/about-lg-portrait.webp"
             alt=""
             className="hidden xl:block absolute -bottom-25 right-0 rounded animate-fadein-reverse w-full max-w-[485px] rounded-b-lg"
           />

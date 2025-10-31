@@ -4,7 +4,6 @@ import About from "../pages/About";
 import Home from "../pages/Home";
 import ProjectDetails from "../pages/ProjectDetails";
 import Projects from "../pages/Projects";
-import Test from "../pages/Test";
 
 const routes = [
   {
@@ -24,11 +23,6 @@ const routes = [
       {
         path: "/projects/:id",
         element: <ProjectDetails />,
-        errorElement: <ErrorElement />,
-      },
-      {
-        path: "/test",
-        element: <Test />,
         errorElement: <ErrorElement />,
       },
       {
