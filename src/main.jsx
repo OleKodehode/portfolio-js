@@ -7,7 +7,7 @@ import routes from "./lib/routes.jsx";
 
 const router = createBrowserRouter(routes, {
   // eslint-disable-next-line no-undef
-  basename: process.env.NODE_ENV === "production" ? "/portfolio-js" : "/",
+  basename: process.env.NODE_ENV === "production" ? "/portfolio-js/" : "/",
 });
 
 createRoot(document.getElementById("root")).render(
