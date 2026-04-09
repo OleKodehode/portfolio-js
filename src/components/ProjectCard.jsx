@@ -4,10 +4,14 @@ export default function ProjectCard({ projectDetails, layout = null }) {
   return (
     <a
       className={`card hover-card gap-2 ${layout ? layout : ""}`}
-      href={`/projects/${id}`}
+      href={`${import.meta.env.BASE_URL}projects/${id}`}
     >
       <img
-        src={thumbnail ? thumbnail : "./img/placeholder.png"}
+        src={
+          thumbnail
+            ? `${import.meta.env.BASE_URL}${thumbnail}`
+            : `${import.meta.env.BASE_URL}img/placeholder.png`
+        }
         alt=""
         width="150"
         height="150"
