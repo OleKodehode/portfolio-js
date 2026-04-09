@@ -12,9 +12,9 @@ export default function Projects() {
         id="highlighted"
         className="grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-5"
       >
-        <ProjectCard projectDetails={projectData[1]} layout="flex-col!" />
-        <ProjectCard projectDetails={projectData[2]} layout="flex-col!" />
-        <ProjectCard projectDetails={projectData[4]} layout="flex-col!" />
+        <ProjectCard projectDetails={projectData[0]} layout="flex-col!" />
+        <ProjectCard projectDetails={projectData[6]} layout="flex-col!" />
+        <ProjectCard projectDetails={projectData[8]} layout="flex-col!" />
       </section>
       <h3 className="text-3xl my-10 text-center accent-text font-roboto text-shadow-lg text-shadow-purple-600/20 dark:text-shadow-none">
         All Projects

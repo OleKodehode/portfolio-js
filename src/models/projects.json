@@ -1,5 +1,81 @@
 [
   {
+    "id": 16,
+    "title": "Infernal Warden (Game)",
+    "img": {
+      "thumbnail": "/img/infernal-warden-thumbnail.webp",
+      "screenshot": "/img/infernal-warden-screenshot.webp"
+    },
+    "summary": "We had a small Game Jam at the course just over Easter",
+    "details": [
+      "Just around Easter, we got a challenge to do a small Game Jam, giving us about a week to create a game",
+      "I chose to go with Phaser engine to make it as simple as possible.",
+      "I quickly settled on a theme and genre, and went to work fleshing out the logic and gameflow with the help of LLMs.",
+      "I did spend the majority of the time writing all the logic and functionality, leaving me with a small amount of time to do some basic art.",
+      "Unfortunately, it also meant I didn't have time to do any sounds or music.",
+      "But the Game Jam ultimately left me inspired to build upon it, as I plan to make it into a proper 3D game later"
+    ],
+    "links": {
+      "repo": "https://github.com/OleKodehode/Infernal-Warden",
+      "pages": "https://olekodehode.github.io/Infernal-Warden/"
+    }
+  },
+  {
+    "id": 15,
+    "title": "GO JSON Server",
+    "img": {
+      "thumbnail": "/img/no-img.webp",
+      "screenshot": "/img/no-img.webp"
+    },
+    "summary": "Wanting to expand my knowledge, I ended up studying GO, and making a 'fake' JSON Server with it.",
+    "details": [
+      "Using Typicode's 'Fake JSON' Server as a starting point, I wanted to recreate it in GO to get some experience in GO.",
+      "I also wanted it to be dependency free, only utilizing the standard GO library. "
+    ],
+    "links": {
+      "repo": "https://github.com/OleKodehode/go-json-server",
+      "pages": ""
+    }
+  },
+  {
+    "id": 14,
+    "title": "Service to Service API",
+    "img": {
+      "thumbnail": "/img/no-img.webp",
+      "screenshot": "/img/no-img.webp"
+    },
+    "summary": "A small S2S API for entertainment and media backlogging",
+    "details": [
+      "At the end of December we got personalized projects to do.",
+      "As I expressed an interest in backend and logic, I got the task to make a service to service API.",
+      "I chose to go with an entertainment and media backlog service, letting the user of the API create personalized lists of media and entertainment they have on their 'backlog'",
+      "For more of a challenge, the course supervisor also told me to utilize TypeScript and do it in more of a test driven development fashion."
+    ],
+    "links": {
+      "repo": "https://github.com/OleKodehode/december-api-project",
+      "pages": ""
+    }
+  },
+  {
+    "id": 13,
+    "title": "Hunt the wumpus group project",
+    "img": {
+      "thumbnail": "/img/no-img.webp",
+      "screenshot": "/img/no-img.webp"
+    },
+    "summary": "Replicating and reimagining an old game called 'Hunt The Wumpus'",
+    "details": [
+      "The first proper group project we had, where we had dedicated roles.",
+      "I ended up doing some logic and some project management, doing A-Star Path finding for generating the maps.",
+      "as well as retrofitting the new A-Star path finding algorithm to work with the backend another guy had created.",
+      "The project ended up being more of a learning experience for me I suppose, and the project never really saw full completion unfortunately."
+    ],
+    "links": {
+      "repo": "https://github.com/OleKodehode/hunt-the-wumpus-group-project",
+      "pages": ""
+    }
+  },
+  {
     "id": 12,
     "title": "This Portfolio",
     "img": {
