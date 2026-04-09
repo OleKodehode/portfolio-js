@@ -1,14 +1,14 @@
+import portrait from "../assets/landing-img-port.webp";
+import landscape from "../assets/landing-img.webp";
+
 export default function Home() {
   return (
     <>
       <div className="relative xl:-mb-20">
         <picture>
-          <source
-            srcSet="./img/landing-img-port.webp"
-            media="(max-width: 900px)"
-          />
+          <source srcSet={portrait} media="(max-width: 900px)" />
           <img
-            src="./img/landing-img.webp"
+            src={landscape}
             alt="cover"
             className=" m-auto rounded-xl w-11/12 md:w-8/12 xl:w-1/2 shadow-xl shadow-zinc-900/50 dark:shadow-none"
           />

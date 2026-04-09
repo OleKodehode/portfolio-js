@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 export default function ProjectCard({ projectDetails, layout = null }) {
   const { title, summary, img, id } = projectDetails;
   const { thumbnail } = img;
   return (
-    <a
+    <Link
       className={`card hover-card gap-2 ${layout ? layout : ""}`}
       href={`${import.meta.env.BASE_URL}projects/${id}`}
     >
@@ -21,6 +23,6 @@ export default function ProjectCard({ projectDetails, layout = null }) {
         <h1 className="text-lg font-bold text-center">{title}</h1>
         <p className="max-w-9/10 self-center">{summary}</p>
       </div>
-    </a>
+    </Link>
   );
 }

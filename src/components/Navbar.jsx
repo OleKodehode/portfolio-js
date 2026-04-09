@@ -1,6 +1,9 @@
 import { NavLink } from "react-router-dom";
 import NavButton from "./NavButton";
 
+import logoDark from "../assets/Site-Icon.png";
+import logoLight from "../assets/Site-Icon-light.png";
+
 export default function Navbar() {
   return (
     <nav className="navbar">
