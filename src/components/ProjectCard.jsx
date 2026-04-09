@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 export default function ProjectCard({ projectDetails, layout = null }) {
   const { title, summary, img, id } = projectDetails;
   const { thumbnail } = img;
+
   return (
     <Link
+      to={`/projects/${id}`}
       className={`card hover-card gap-2 ${layout ? layout : ""}`}
-      href={`${import.meta.env.BASE_URL}projects/${id}`}
     >
       <img
         src={

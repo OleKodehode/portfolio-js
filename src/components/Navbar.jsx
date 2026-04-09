@@ -17,12 +17,12 @@ export default function Navbar() {
         viewTransition
       >
         <img
-          src={`${import.meta.env.BASE_URL}img/favicon/Site-Icon.png`}
+          src={logoDark}
           alt="Logo"
           className="hidden dark:block size-16 -mt-2 -mb-1 md:mt-0"
         />
         <img
-          src={`${import.meta.env.BASE_URL}img/favicon/Site-Icon-light.png`}
+          src={logoLight}
           alt="Logo"
           className="dark:hidden size-16 -mt-2 -mb-1 md:mt-0"
         />
