@@ -2,6 +2,7 @@ import {
   CSS,
   ExpressJsDark,
   ExpressJsLight,
+  Go,
   HTML5,
   JavaScript,
   MicrosoftSQLServer2,
@@ -97,7 +98,7 @@ export default function About() {
         </article>
         <article title="React" className="skill-box group/skill">
           <React size={48} />
-          <Skillbar value={80} tooltip={"Confident"} color={"green"} />
+          <Skillbar value={80} tooltip={"Somewhat confident"} color={"green"} />
         </article>
         <article title="Tailwind CSS" className="skill-box group/skill">
           <TailwindCSS size={48} />
@@ -105,12 +106,12 @@ export default function About() {
         </article>
         <article title="NodeJS" className="skill-box group/skill">
           <NodeJs size={48} />
-          <Skillbar value={50} tooltip={"Still Learning"} color={"yellow"} />
+          <Skillbar value={60} tooltip={"Still Learning"} color={"yellow"} />
         </article>
         <article title="Express" className="skill-box group/skill">
           <ExpressJsDark size={48} className="dark:hidden" />
           <ExpressJsLight size={48} className="hidden dark:block" />
-          <Skillbar value={50} tooltip={"Still Learning"} color={"yellow"} />
+          <Skillbar value={60} tooltip={"Still Learning"} color={"yellow"} />
         </article>
         <article title="SQL" className="skill-box group/skill">
           <MicrosoftSQLServer2 size={48} />
@@ -119,6 +120,14 @@ export default function About() {
         <article title="Python" className="skill-box group/skill">
           <Python size={48} />
           <Skillbar value={60} tooltip={"Need a refresher"} color={"yellow"} />
+        </article>
+        <article title="GO" className="skill-box group/skill">
+          <Go size={48} />
+          <Skillbar
+            value={60}
+            tooltip={"Could use some more training"}
+            color={"yellow"}
+          />
         </article>
       </section>
     </>

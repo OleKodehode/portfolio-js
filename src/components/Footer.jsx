@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <article className="lg:self-end">
-        <p className="text-sm">© 2025 Kode-Ole </p>
+        <p className="text-sm">© 2025 - 2026 Kode-Ole </p>
       </article>
       <section className="grid grid-cols-2 gap-5 md:flex">
         <article className="icon-container">
